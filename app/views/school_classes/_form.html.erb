@@ -1,0 +1,11 @@
+<%= form_for @class do |form| %>
+<label for="">Title:</label><br/>
+<%= form.text_field :title  %><br/>
+
+<label for="">Room Number:</label><br/>
+<%= form.number_field :room_number %><br/><br/>
+
+<%= form.submit  %>
+
+<%  end %>
+
