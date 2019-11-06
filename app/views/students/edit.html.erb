@@ -1,0 +1,11 @@
+<h1>Students#edit</h1>
+
+<%= form_for @student do |f|%>
+<%= f.label "student_first_name" %>
+<%= f.text_field :first_name, id: "student_first_name"%>
+
+<%= f.label "student_last_name"%>
+<%= f.text_field :last_name, id: "student_last_name"%>
+
+<%= f.submit value="Update Student"%>
+<%end%>
